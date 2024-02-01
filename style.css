@@ -1,0 +1,483 @@
+body {
+
+    background-color: #fff9f9; /* F6F6EB  F6ECF5 */
+  
+
+
+
+}
+
+
+.nav {
+
+    background-color: #eeeeee;
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: -10px;
+
+    margin-left: -10px;
+
+    margin-right: -10px;
+    
+
+}
+
+.top {
+
+    display: flex;
+
+    background-color: #eeeeee;  /*eeeeee */
+
+    justify-content: flex-end;
+
+    gap: 30px;
+
+    align-items: center;
+
+    font-size: 20px;
+
+    flex-direction: row;
+
+    margin-right: 1%;
+   
+
+
+
+
+}
+
+
+.bottom {
+
+    background-color: #eeeeee;
+
+    display: flex;
+
+    justify-content: space;
+
+    flex-direction: row;
+
+    
+
+
+    
+
+
+
+   
+
+
+
+
+}
+
+.image {
+
+
+    display: flex;
+
+    background-color: #eeeeee;
+
+    margin-top: 20px;
+
+    margin-left: 30px;
+
+    
+    
+
+
+    
+
+    
+
+
+
+}
+
+.fury {
+
+    height: 80px;
+
+    
+
+
+
+
+}
+
+
+
+
+.link {
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  background: #eefede;
+  transform: scale(1.1); /* Add scale effect on hover for a cooler look */
+  color: #333; /* Darken the text color on hover */
+  font-weight: bold;
+}
+
+
+
+.link {
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  transition: color 0.3s ease; /* Add a transition to the color property */
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+  background: #eefede;
+ 
+}
+
+
+
+.me {
+    display: flex;
+    
+    flex-direction: column; /* Change to column layout to stack elements vertically */
+    
+    background-color: F6F6EB; /* F6F6EB  */
+    
+    height: 120px;
+    
+    margin-left: 40px;
+    
+    margin-right: 40px;
+    
+    justify-content: center;
+    
+    align-items: center; /* Center both horizontally and vertically */
+    
+}
+
+.me-name {
+    display: flex;
+    
+    background-color: none;
+    
+    height: 30px;
+    
+    width: 60%;
+    
+    align-items: center; /* Center content vertically */
+    
+    justify-content: center; /* Center content horizontally */
+    
+    font-weight: bold;
+    
+    color: purple;
+    
+    font-size: 30px;
+}
+
+.me-info {
+    display: flex;
+    
+    background-color: F6F6EB;
+    
+    height: 100px;
+    
+    width: 85%;
+    
+    margin-top: 10px; /* Adjust margin to create space between blue and green boxes */
+    
+    color: black;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Your existing CSS styles here */
+
+.lang {
+    display: flex;
+    
+    background-color: none;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+
+    width: 60%;
+
+    margin-left: 300px;
+
+    padding-top: 22%;
+}
+
+.lang img {
+    border: 1px solid black;
+}
+
+.lang-2 {
+    display: flex;
+    
+    background-color: none;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    
+    margin-top: 20px; /* Add margin for separation */
+}
+
+.lang-2 img {
+    border: 1px solid black;
+}
+
+.projects{
+  display: flex;
+  
+  background-color: none;
+  
+  height: 200px;
+  
+  flex-direction: column;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
+
+.projects-name{
+  display: flex;
+  
+  background-color: none;
+  
+  width: 20%;
+  
+  height: 35px;
+  
+  margin-left: 40px;
+  
+  font-weight: bold;
+  
+  font-size: 30px;
+  
+  color: purple;
+}
+
+.project-1-name{
+  display: flex;
+  
+  background-color: none;
+  
+  width: 12%;
+  
+  height: 20px;
+  
+  margin-left: 80px;
+  
+  font-weight: bold;
+  
+  font-size: 20px;
+  
+  color: black;
+
+  
+}
+
+.project-2-name{
+  display: flex;
+  
+  background-color: none;
+  
+  width: 12%;
+ 
+  height: 20px;
+  
+  margin-left: 80px;
+  
+  margin-top: 0px;
+  
+  font-weight: bold;
+  
+  font-size: 20px;
+  
+  color: black;
+  
+  
+}
+
+.project-2-des{
+  display: flex;
+  
+  background-color: none;
+  
+  height: 50px;
+  
+  width: 85%;
+  
+  margin-top: 10px;
+  
+  margin-left: 105px;
+  
+  font-size: 15px;
+
+  
+}
+
+.project-1-des{
+  display: flex;
+  
+  background-color: none;
+  
+  height: 50px;
+  
+  width: 85%;
+  
+  margin-top: 10px;
+  
+  margin-left: 105px;
+  
+  font-size: 15px;
+  
+
+}
+
+hr {
+    width: 50%;
+    height: 2px;
+    background-color: transparent; /* Set the background to transparent */
+    position: relative;
+    
+
+}
+
+hr::before {
+    content: "";
+    position: absolute;
+    top: -5px; /* Adjust the top position to control the glow distance */
+    left: 0;
+    right: 0;
+    height: 10px; /* Adjust the height to control the glow thickness */
+    background: linear-gradient(to right, #eeeeee, #9185ff, #ff6ce7); /* Define your neon colors here */
+    border-radius: 5px; /* Adjust the border radius to control the roundness of the glow */
+    animation: neon 1.5s linear infinite alternate; /* Add a neon animation */
+}
+
+@keyframes neon {
+    from {
+        filter: brightness(1.2); /* Adjust the brightness to control the neon effect */
+    }
+    to {
+        filter: brightness(1);
+    }
+}
+
+
+.java{
+    display: flex;
+    
+    margin-right: 448px;;
+}
+
+.socials {
+  display: flex;
+
+  justify-content: center; /* Center icons horizontally */
+
+  align-items: center; /* Center icons vertically */
+
+  margin-top: 10px; /* Adjust margin as needed */
+
+  margin-left: 450px;
+
+  background-color: #eeeeee;
+
+}
+
+.socials a {
+  margin: 0 10px; /* Add space between icons */
+}
+
+.socials img{
+  height: 30px;
+}
+
+.recommendations {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.recommendation-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#recommendation-text {
+  height: 100px;
+}
+
+#submit-recommendation {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.recommendation-list {
+  margin-top: 20px;
+}
+
+h2{
+  font-weight: bold;
+  
+  font-size: 30px;
+  
+  color: purple;
+}
+
+
+.home{
+  display: flex;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  margin-left: 98%;
+
+}
+
+.home:hover{
+  cursor: pointer;
+}
+
+
+#image-me{
+  display: flex;
+  padding-top: 17%;
+  margin-top: 80px;
+  width: 300px;
+  height: 300px;
+}
